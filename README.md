@@ -1,4 +1,4 @@
-# 🧠 Virtual Brain Twin: Online Data Assimilation (`vbt-01-online-assimilation`)
+#  Virtual Brain Twin: Online Data Assimilation (`vbt-01-online-assimilation`)
 
 [![Julia Version](https://img.shields.io/badge/Julia-%3E%3D1.8-blue.svg)](https://julialang.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -10,7 +10,7 @@ Designed for digital twin architectures, this pipeline assimilates streaming syn
 
 ---
 
-## 📊 Key Results & Performance
+##  Key Results & Performance
 Our verification sweep compares the real-time online EnKF tracking estimate against a static offline baseline across a continuous parameter drift trajectory ($A(t)$).
 
 | Estimator Strategy | Root Mean Square Error (RMSE) | Tracking Latency |
@@ -24,7 +24,7 @@ Our verification sweep compares the real-time online EnKF tracking estimate agai
 
 ---
 
-## 🔬 Mathematical Formulation
+##  Mathematical Formulation
 
 ### 1. Stochastic Jansen-Rit Neural Mass Model
 The neural mass population dynamics model populations of pyramidal neurons, excitatory interneurons, and inhibitory interneurons. The system state vector $x(t) = [y_1, y_2, \dots, y_6]^T$ evolves via:
@@ -44,7 +44,7 @@ To track unobserved parameters online, we augment the state vector with the para
 
 ---
 
-## 🛠️ Repository Architecture
+##  Repository Architecture
 
 ```text
 vbt-01-online-assimilation/
